@@ -1,0 +1,2617 @@
+﻿ver/*KMI.css - A css made by integrating all the needed and stripped down classes of the style sheets from the entire application*/
+/*Created on: 23-5-2014*/
+#box {
+    width: 95%;
+    height: 100%;
+    margin: 1px auto 0;
+}
+
+@font-face {
+	font-family: 'VAG Rounded std Black';
+	src: url('../Fonts//VAG-Rounded-Std-Black_47296.eot');
+	src: local('☺'), url('../Fonts/VAG-Rounded-Std-Black_47296.woff') format('woff'), url('../Fonts/VAG-Rounded-Std-Black_47296.ttf') format('truetype'), url('../Fonts/VAG-Rounded-Std-Black_47296.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VAG Rounded std bold';
+	src: url('../Fonts//VAG-Rounded-Std-Bold_47297.eot');
+	src: local('☺'), url('../Fonts/VAG-Rounded-Std-Bold_47297.woff') format('woff'), url('../Fonts/VAG-Rounded-Std-Bold_47297.ttf') format('truetype'), url('../Fonts/VAG-Rounded-Std-Bold_47297.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'VAG Rounded std Light';
+	src: url('../Fonts/VAG-Rounded-Std-Light_47298.eot');
+	src: local('☺'), url('../Fonts/VAG-Rounded-Std-Light_47298.woff') format('woff'), url('../Fonts/VAG-Rounded-Std-Light_47298.ttf') format('truetype'), url('../Fonts/VAG-Rounded-Std-Light_47298.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'VAG Rounded std Thin';
+	src: url('../Fonts/VAG-Rounded-Std-Thin_47299.eot');
+	src: local('☺'), url('../Fonts/VAG-Rounded-Std-Thin_47299.woff') format('woff'), url('../Fonts/VAG-Rounded-Std-Thin_47299.ttf') format('truetype'), url('../Fonts/VAG-Rounded-Std-Thin_47299.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.buttonNextNew {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/btnNext3.jpg');
+    height: 18px;
+    width: 18px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+
+.formtableAnimate {
+    background-color: #F7C288; /*#E9CFEC;*/ /*Color: gainsboro*/ /*FFCBA4*/
+    height: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+#tab_nav, #div_ul {
+    margin: 0;
+    padding: 0;
+    height: 25px;
+    line-height: 25px;
+    background-color: Transparent;
+}
+
+    #tab_nav li, #div_ul li {
+        float: left;
+        margin: 01px;
+        list-style: none;
+        border-bottom: none;
+        border: 1px solid silver;
+        height: 24px;
+        width: 90px;
+        text-align: center;
+        background-color: #e6e6e6;
+    }
+
+        #tab_nav li:hover, #div_ul li:hover {
+            float: left;
+            margin: 01px;
+            list-style: none;
+            border-left: 1px solid silver;
+            border-right: 1px solid silver;
+            border-top: 1px solid silver;
+            border-bottom: none;
+            height: 24px;
+            width: 90px;
+            text-align: center;
+        }
+
+.tab_Lnk {
+    font: bold 12px/24px Tahoma, Geneva, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+.MenuHand {
+    cursor: pointer;
+}
+
+.tab_Lnk:hover {
+    color: Blue;
+}
+/*--TAB Navigation ends--*/
+/***** New Tab Theme *****/
+body {
+    background: #FFF;
+    color: #000;
+    BACKGROUND: url(background.jpg) fixed;
+    font: 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+#tabs {
+    font-family: Verdana;
+    font-size: 10pt;
+    font-weight: bold;
+}
+
+    #tabs ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #tabs ul li {
+            display: inline;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+            #tabs ul li a {
+                padding: 0px;
+                color: #666666;
+                background: #E3EAEB;
+                float: left;
+                text-decoration: none;
+                border: 1px solid #666666;
+                border-right: 0;
+                margin: 0;
+                text-transform: capitalize;
+                text-align: center;
+                width: 130px;
+            }
+
+                #tabs ul li a:hover {
+                    background: #EAEAEA;
+                    color: Black;
+                    text-decoration: none;
+                    border-bottom: 1px solid #EAEAEA;
+                }
+
+                #tabs ul li a.notactive {
+                    background: #E3EAEB;
+                    color: #666666;
+                    border-bottom: 2px solid #E3EAEB;
+                }
+
+                #tabs ul li a.active {
+                    background: silver;
+                    color: #990033;
+                    border-bottom: 2px solid silver;
+                }
+
+                    #tabs ul li a.active:hover, #tabs ul li a.notactive:hover {
+                        background: transparent;
+                        color: #FFFFFF;
+                        border-bottom: 0px solid #2872DB;
+                        cursor: pointer;
+                    }
+
+#content {
+    background: #EAEAEA;
+    clear: both;
+    font-size: 11px;
+    color: #000;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*****/
+
+/*** sub tab page***/
+.tabsItem {
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #FFF;
+    font-weight: bold;
+    width: 99%;
+}
+
+    .tabsItem ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        .tabsItem ul li {
+            display: inline;
+            margin: 0;
+            text-transform: capitalize;
+        }
+
+            .tabsItem ul li a {
+                padding: 5px 16px;
+                color: #666666;
+                background: #E3EAEB;
+                float: left;
+                text-decoration: none;
+                border: 1px solid #666666;
+                border-right: 0;
+                margin: 0;
+                text-transform: capitalize;
+                border-right: 1px solid black;
+            }
+
+                .tabsItem ul li a:hover {
+                    background: #EAEAEA;
+                    color: Black;
+                    text-decoration: none;
+                    border-bottom: 1px solid #EAEAEA;
+                }
+/*--TAB Top ends--*/
+.NavMenu {
+    BACKGROUND-IMAGE: url('Images/back-i1.JPG');
+}
+/*--Menu Bar ends --*/
+
+
+.formcontent {
+    font-family: Verdana, Tahoma, Arial;
+    font-size: 12px;
+    background-color: #f5f5f5;
+    text-align: left;
+}
+
+.formcontent2 {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 12px;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+.formtable1 {
+    background-color: #DCDCDC; /*Color: gainsboro*/
+    height: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+.standardtextbox {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #404954;
+    width: 190px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    height: 14px;
+}
+
+.standardtextboxMandate {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #404954;
+    width: 190px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    height: 14px;
+    background-color: #FFE5B4;
+}
+
+.standardtextboxLgnd {
+    position: relative;
+    top: 1.5px;
+    width: 12px;
+    height: 12px;
+}
+
+.textboxWithChkBox {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #404954;
+    width: 171px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    height: 14px;
+}
+
+.standardtextboxCntryCode {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #404954;
+    width: 20px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    height: 14px;
+}
+
+.textboxWithCountryCode {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #404954;
+    width: 170px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    height: 14px;
+}
+
+.test {
+    background-image: url(Images/tab-bg3.jpg);
+    color: Navy;
+    text-align: left;
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.standardbutton {
+    font-family: Verdana, Tahoma, Arial;
+    color: #ffffff;
+    font-size: 11px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    background: #428bca;
+}
+
+.standardlabel {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: black;
+    padding-left: 03px;
+}
+
+.standardlabelMail {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    padding-left: 03px;
+    font-weight: bold;
+}
+
+.standarddatablack {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: black;
+    padding-left: 03px;
+}
+
+.standarddatagreen {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: green;
+    padding-left: 03px;
+}
+
+
+.standarddatablue {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: blue;
+    padding-left: 03px;
+}
+
+.standarddatared {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: red;
+    padding-left: 03px;
+}
+
+.standarddatorange {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: orange;
+    padding-left: 03px;
+}
+
+.standardlabelCRM {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: black;
+}
+
+.standardlabelLgnds {
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: Black;
+    padding-left: 03px;
+}
+
+.standardlabelNote {
+    font-size: 9px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: blue;
+}
+
+.standardlabelErr {
+    font-size: 10px;
+    font-family: Verdana;
+    font-weight: normal;
+    color: Red;
+}
+
+
+.standardlabelMarquee {
+    font-size: 11px;
+    font-weight: normal;
+    color: Red;
+}
+
+.standardDropdown {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #000000;
+    width: 194px;
+    height: 19px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+.standardDropdownMandate {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    background-color: #FFE5B4;
+    color: #000000;
+    /*color :#404954;*/
+    width: 194px;
+    height: 19px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+.standardDropdownClick {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #000000;
+    width: 650px;
+    height: 19px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+.GridViewStyle {
+    font-size: 1px;
+    width: 100%;
+}
+
+/*  Added by kalpak for padding */
+.pad {
+    padding-left: 03px;
+    padding-right: 03px;
+}
+
+.padMax {
+    padding-left: 04px;
+    padding-right: 04px;
+}
+
+.padLeft {
+    padding-left: 03px;
+}
+
+.padRight {
+    padding-right: 03px;
+}
+
+.padTop {
+    padding-top: 07px;
+}
+
+/*  Added by kalpak for gridview style */
+.GridViewHeader {
+    font-size: 11.5px;
+    background-color: #f04e5e;
+    color: White;
+    text-align: center;
+    text-decoration: none;
+}
+
+    .GridViewHeader a {
+        font-size: 11.5px;
+        background-color: #f04e5e;
+        color: White;
+        text-align: center;
+        text-decoration: none;
+        font-family: VAG Rounded Std Light;
+        font-size: 15px;
+    }
+
+.GridViewRowNew {
+    /*font-family: VAG-Rounded-Std-Thin;*/
+    font-size: 12px;
+    color: #2a2e2f;
+    border-color: #ffffff !important;
+    white-space: nowrap;
+    text-align: center;
+}
+
+
+.GridViewHeader a:hover {
+    font-size: 11.5px;
+    background-color: #034ea2;
+    color: White;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.GridViewRow {
+    font-family: VAG Rounded Std Light;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 3px 3px 3px 3px;
+    /* color: #0076B7;*/
+    background-color: #F6F6F6;
+    text-align: left;
+    border: 1px solid;
+    border-color: Gray !important;
+    white-space: nowrap;
+}
+
+.gridview th {
+    padding: 3px;
+    height: 40px;
+    background-color: #f04e5e;
+    color: #FFFFFF;
+    border-color: #f04e5e;
+    text-align: center;
+    font-family: VAG Rounded Std Light;
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+    .gridview th a {
+        color: White !important;
+    }
+
+.GridViewSelectedRow {
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewAlternateRow {
+    font-family: VAG Rounded Std Light;
+    font-weight: normal;
+    font-size: 12px;
+    padding: 3px 3px 3px 3px;
+    color: #333333;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: Gray;
+}
+
+.footable > tbody > tr > td {
+    border-bottom-color: black;
+}
+
+.GridViewPager {
+    background-color: Gray;
+}
+
+    .GridViewPager a {
+        background-color: Gray;
+        font-size: 10px;
+        font-weight: bold;
+        color: White;
+        text-align: center;
+    }
+
+.GridViewFooter {
+    background-color: #507CD1;
+    font-weight: bold;
+    color: White;
+}
+
+.button {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../../../images/btn.png);
+    height: 22px;
+    width: 80px;
+    text-align: center;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+.buttonBG {
+    white-space: nowrap;
+    height: 22px;
+    width: 100%;
+    color: White;
+    background-image: url(../../../images/btn.png);
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+    .button:hover, .buttonBG:hover {
+        cursor: pointer;
+        background-image: url(../../../images/btnHover.png);
+    }
+
+.buttonSearch {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../../../Application/Images/SearchBtn1.png);
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSearch:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url(../../../Application/Images/searchBtnHover1.png);
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonSearchSmall {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    background-image: url(../../../Application/Images/SrcgSmallBtn.png);
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSearchSmall:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url(../../../Application/Images/SrcgSmallBtnHover.png);
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonReset {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../../../Application/Images/ResetBtn.png);
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonReset:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url(../../../Application/Images/ResetBtnHover.png);
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonExport {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../../../Application/Images/ExportBtn.png);
+    height: 22px;
+    width: 160px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonExport:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url(../../../Application/Images/ExportBtnHover.png);
+        height: 22px;
+        width: 160px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+.standardPagerDropdown {
+    FONT-FAMILY: Verdana, Tahoma, Arial;
+    font-size: 11px;
+    color: #000000;
+    width: 40px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+}
+
+
+.tableHeader {
+    width: 100%;
+    height: 20px !important;
+    background-color: #48b5f2;
+    text-align: left;
+}
+
+.tableHeaderTitle {
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: #3c763d;
+    padding-left: 03px;
+}
+
+.tableHeaderButton {
+    font-family: Verdana, Tahoma, Arial;
+    color: #ffffff;
+    font-size: 11px;
+    width: 25px;
+    height: 18px;
+    border-right: #B6BCCB 1px solid;
+    border-left: #B6BCCB 1px solid;
+    border-top: #B6BCCB 1px solid;
+    border-bottom: #B6BCCB 1px solid;
+    background: #0000ff;
+}
+
+.tablePager {
+    width: 100%;
+    height: 20px;
+    background-color: #DBDBDB;
+    display: block;
+}
+
+.tablePagerData {
+    width: 40%;
+}
+
+.tablePagerDataSmall {
+    width: 10%;
+    padding-left: 05px;
+    padding-right: 05px;
+}
+
+.productInfo {
+    font-family: Arial;
+    color: Black;
+    font-size: smaller;
+}
+
+.iconInfo {
+    width: 26px;
+    height: 17px;
+    position: relative;
+    top: 1.5px;
+}
+
+.iconLgnds {
+    width: 15px;
+    height: 12px;
+    position: relative;
+    top: 8px !important;
+    cursor: pointer;
+}
+
+.hiddencol {
+    display: none;
+}
+
+.fullWidth {
+    font-size: 12px !important;
+    width: 100% !important;
+}
+
+.pad {
+    padding-left: 03px;
+}
+
+.SpacingBetweenRows {
+    padding: 0px 0px 0px 0px;
+}
+
+.SpacingBetweenRowsForControls {
+    padding: 0px 0px 0px 0px;
+}
+
+#overlay {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    height: 160%;
+    top: 0;
+    left: 0;
+    background-color: #CCCCFF;
+    filter: alpha(opacity=40);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+/*  select:focus{width:auto !important;} */
+
+.modalBackground {
+    background-color: #CCCCFF !important;
+    filter: alpha(opacity=40) !important;
+    opacity: 0.5 !important;
+}
+
+.standardCheckBox {
+    background: transparent !important;
+    border: 0 !important;
+    font-family: Verdana !important;
+    font-size: 09px !important;
+}
+
+    .standardCheckBox td {
+        width: 15%; /* or percent value: 25% */
+    }
+
+.standardRadioButton {
+    background: transparent !important;
+    border: 0 !important;
+    font-family: Verdana !important;
+    font-size: 09px !important;
+}
+
+.tableSubHeaderTitle {
+    font-size: 11px;
+    font-family: Verdana;
+    font-weight: bold;
+    color: White;
+    padding-left: 03px;
+    background-color: #357EC7;
+}
+
+.buttonCreateUnidentified {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url(../../../Application/Images/CreateBtn.png);
+    height: 22px;
+    width: 250px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+.buttonLeadSource {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/LeadSrcBtn.png');
+    background-repeat: no-repeat;
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonLeadSource:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/LeadSrcBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/**/
+.buttonLeadSubSource {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/LeadSubSrcBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonLeadSubSource:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/LeadSubSrcBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+
+
+.buttonProduct {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ProductBtn.png');
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonProduct:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ProductBtnHover.png');
+        height: 22px;
+        width: 100px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonEdit {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/EditBtn.png');
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonEdit:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/EditBtnHover.png');
+        height: 22px;
+        width: 100px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+.buttonSave {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SaveBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSave:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SaveBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+.buttonCreateSR {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateSRBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateSR:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateSRBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+.buttonCreateAnoLead {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateAnoLeadBtn.png');
+    height: 22px;
+    width: 170px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateAnoLead:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateAnoLeadBtnHover.png');
+        height: 22px;
+        width: 170px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+.buttonCreateReferal {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateReferalBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateReferal:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateReferalBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+.buttonSubmit {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SubmitBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSubmit:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SubmitBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+.buttonReply {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ReplyBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonReply:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ReplyBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+
+
+.buttonLinkwithOtherCustomers {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/LinkwithOtherCustomersBtn.png');
+    height: 22px;
+    width: 155px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonLinkwithOtherCustomers:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/LinkwithOtherCustomersBtnHover.png');
+        height: 22px;
+        width: 155px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+.buttonView {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ViewBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonView:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ViewBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+
+.buttonCreateLead {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateLeadBtn.png');
+    height: 22px;
+    width: 110px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateLead:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateLeadBtnHover.png');
+        height: 22px;
+        width: 110px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*nilesh @ 16/06/2014*/
+.buttonClear {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ClearBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonClear:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ClearBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonCancel {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CancelBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCancel:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CancelBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonView {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ViewBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonView:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ViewBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonSelect {
+    border: 1px solid #428bca;
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SelectBtn.png');
+    width: 95px;
+    text-align: center;
+}
+
+    .buttonSelect:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SelectBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonCopy {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CopyBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCopy:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CopyBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonDownload {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/DownloadBtn.png');
+    height: 22px;
+    width: 100px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonDownload:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/DownloadBtnHover.png');
+        height: 22px;
+        width: 100px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonAdd {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/AddBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonAdd:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/AddBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/* nilesh end*/
+/* Parag @ 17062014 */
+.buttonSRDetails {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SRDetailsBtn.png');
+    height: 22px;
+    width: 125px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSRDetails:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SRDetailsBtnHover.png');
+        height: 22px;
+        width: 125px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonRemoveSR {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/RemoveSRBtn.png');
+    height: 22px;
+    width: 125px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonRemoveSR:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/RemoveSRBtnHover.png');
+        height: 22px;
+        width: 125px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonReleaseSoftLock {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ReleaseSoftLockBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonReleaseSoftLock:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ReleaseSoftLockBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonRecomplaint {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/RecomplainBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+.buttonSRDetails:hover {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/RecomplainBtnHover.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+    cursor: pointer;
+}
+
+.buttonSendFinalMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SendFinalMailBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSendFinalMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SendFinalMailBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonCreateAnotherSR {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateAnotherSRBtn.png');
+    height: 22px;
+    width: 180px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateAnotherSR:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateAnotherSRBtnHover.png');
+        height: 22px;
+        width: 180px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonGenerateServiceRequest {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/GenerateServiceRequestBtn.png');
+    height: 22px;
+    width: 180px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonGenerateServiceRequest:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/GenerateServiceRequestBtnHover.png');
+        height: 22px;
+        width: 180px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonLinkwithCustomer {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/LinkwithCustomerBtn.png');
+    height: 22px;
+    width: 180px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonLinkwithCustomer:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/LinkwithCustomerBtnHover.png');
+        height: 22px;
+        width: 180px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonInterimResponse {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/InterimResponseBtn.png');
+    height: 22px;
+    width: 180px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonInterimResponse:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/InterimResponseBtnHover.png');
+        height: 22px;
+        width: 180px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonMakeParent {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/MakeParentBtn.png');
+    height: 22px;
+    width: 125px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonMakeParent:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/MakeParentBtnHover.png');
+        height: 22px;
+        width: 125px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonCreateLead {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateLeadBtn.png');
+    height: 22px;
+    width: 125px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateLead:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateLeadBtnHover.png');
+        height: 22px;
+        width: 125px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonSpamMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/SpamMailBtn.png');
+    height: 22px;
+    width: 125px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonSpamMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/SpamMailBtnHover.png');
+        height: 22px;
+        width: 125px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/ /*---*/
+.buttonAddtoExistingSR {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/AddtoExistingSRBtn.png');
+    height: 22px;
+    width: 170px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonAddtoExistingSR:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/AddtoExistingSRBtnHover.png');
+        height: 22px;
+        width: 170px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonIrrelevantMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/IrrelevantMailBtn.png');
+    height: 22px;
+    width: 170px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonIrrelevantMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/IrrelevantMailBtnHover.png');
+        height: 22px;
+        width: 170px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonDuplicateMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/DuplicateMailBtn.png');
+    height: 22px;
+    width: 170px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonDuplicateMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/DuplicateMailBtnHover.png');
+        height: 22px;
+        width: 170px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonForwardMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ForwardMailBtn.png');
+    height: 22px;
+    width: 170px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonForwardMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ForwardMailBtnHover.png');
+        height: 22px;
+        width: 170px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/ /*---*/
+.buttonCreateHospitalRequest {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CreateHospitalRequestBtn.png');
+    height: 22px;
+    width: 250px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonCreateHospitalRequest:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CreateHospitalRequestBtnHover.png');
+        height: 22px;
+        width: 250px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonInsufficientInformation {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/InsufficientInformationBtn.png');
+    height: 22px;
+    width: 250px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonInsufficientInformation:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/InsufficientInformationBtnHover.png');
+        height: 22px;
+        width: 250px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+.buttonForwardtoanyOtherInternalMail {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ForwardToOtherBtn.png');
+    height: 22px;
+    width: 250px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonForwardtoanyOtherInternalMail:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ForwardToOtherBtnHover.png');
+        height: 22px;
+        width: 250px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+/*---*/
+
+/* Parag End */
+.buttonChecklist {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ChecklistBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonChecklist:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ChecklistBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonUpload {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/UploadBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonUpload:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/UploadBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+/* added by kalpak for links */
+
+.standardlink {
+    font-size: 12px;
+    font-family: Verdana;
+    font-weight: normal;
+    padding-left: 03px;
+}
+
+    .standardlink:hover {
+        font-size: 11px;
+        font-family: Verdana;
+        font-weight: normal;
+        color: #990033;
+        padding-left: 03px;
+    }
+
+.standardlinkImages {
+    height: 15px;
+    width: 15px;
+    position: relative;
+    top: 3px !important;
+    padding-right: 04px;
+}
+
+.standardQuicklink {
+    height: 13px;
+    width: 13px;
+    position: relative; /*top: 3px !important; */
+    padding-right: 04px;
+}
+
+
+.buttonLogin {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/LoginBtn.png');
+    height: 22px;
+    width: 60px;
+    text-align: right;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonLogin:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/LoginBtnHover.png');
+        height: 22px;
+        width: 60px;
+        text-align: right;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonClear2 {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/CancelSmallBtn.png');
+    height: 22px;
+    width: 60px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonClear2:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/CancelSmallBtn.png');
+        height: 22px;
+        width: 60px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonResetPassword {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/ResetPasswordBtn.png');
+    height: 22px;
+    width: 150px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonResetPassword:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/ResetPasswordBtnHover.png');
+        height: 22px;
+        width: 150px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.buttonUpdate {
+    font-family: Verdana, Tahoma, Arial;
+    color: White;
+    font-size: 11px;
+    font-weight: bold;
+    background-image: url('Images/UpdateBtn.png');
+    height: 22px;
+    width: 95px;
+    text-align: center;
+    border-right: #428bca 1px solid;
+    border-left: #428bca 1px solid;
+    border-top: #428bca 1px solid;
+    border-bottom: #428bca 1px solid;
+}
+
+    .buttonUpdate:hover {
+        font-family: Verdana, Tahoma, Arial;
+        color: White;
+        font-size: 11px;
+        font-weight: bold;
+        background-image: url('Images/UpdateBtnHover.png');
+        height: 22px;
+        width: 95px;
+        text-align: center;
+        border-right: #428bca 1px solid;
+        border-left: #428bca 1px solid;
+        border-top: #428bca 1px solid;
+        border-bottom: #428bca 1px solid;
+        cursor: pointer;
+    }
+
+.mainpage-header {
+    width: 99% !important;
+    background-color: white;
+    padding-top: 02px;
+}
+
+.form-control {
+    border-top: 0px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    height: 25px;
+}
+
+.input.form-control {
+    border-top: 0px;
+    border-radius: 0px;
+    padding: 0px 0px;
+    height: 25px;
+}
+
+.form-control-height {
+    height: 30px;
+}
+
+.bootstrap-dropdown-width {
+    width: 190px !important;
+}
+
+.bootstrap-dropdown-widthMax {
+    width: 250px !important;
+}
+
+.form-group-Grp {
+    display: inherit !important;
+}
+
+.subHeader-KMI {
+    background-color: #F4FFEF;
+}
+
+.btn-primary-KMI {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.margin {
+    margin-left: 36% !important;
+}
+
+/*Added by ashitosh for aligning 2 controls */
+.input-addon_extended {
+    padding: 0px;
+    width: 20%;
+    border: 0px !important;
+    background-color: white !important;
+    margin-left: 2px;
+    margin-bottom: 0px !important;
+}
+
+    .input-addon_extended > :first-child {
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+
+    .input-addon_extended > .btn {
+        margin-bottom: 0px;
+        margin-left:2px;
+
+    }
+
+.input-group {
+    z-index: 0;
+    margin-left: 0px;
+}
+/*Added by Meena for RHIC  */
+#divSearch span {
+    font-family: VAG Rounded Std Light !important;
+}
+
+body {
+    font-family: VAG Rounded Std Light !important;
+}
+
+.GrdRow {
+    color: White;
+}
+
+.disablepage {
+    display: none;
+}
+
+ul#menu {
+    padding: 0;
+    margin-right: 69%;
+}
+
+    ul#menu li {
+        display: inline;
+    }
+
+
+
+        ul#menu li a {
+            background-color: Silver;
+            color: black;
+            cursor: pointer;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 4px 4px 0 0;
+        }
+
+            ul#menu li a:active {
+                background: white;
+            }
+
+            ul#menu li a:hover {
+                background-color: red;
+            }
+
+.panel-heading {
+    color: #034ea2 !important;
+    background-color: white !important;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0px;
+}
+
+.a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: VAG Rounded Std Light !important;
+    font-size: 15px;
+}
+
+.panel-body {
+    border-color: #034ea2 !important;
+    background-color: #fff;
+    border: 1px solid transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0.9%;
+    margin-bottom: 0.9%;
+}
+
+.panel-heading subheader {
+    color: white !important;
+    background-color: #ffffff !important;
+    border-color: #9b3737 !important;
+    font-size: 16px;
+}
+
+.subheader {
+    font-size: 16px !important;
+}
+
+
+/*added by pratik for textbox padding*/
+input[type='text'] {
+    padding: 8px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+/*added by pratik for round btns*/
+.btnBorderRadius{
+    border-radius:15px !important;
+}
+
+.btn-verify {
+    color: #ffffff;
+    margin-left: 2px;
+    background-color: #f04e5e;
+    border-color: #f04e5e;
+    /*border-radius: 15px; /*font-family: VAG-Rounded-Std-Bold;*/
+    font-size: 12px;
+    font-weight: 400;
+    height: 25px;
+}
+
+    .btn-verify:hover, .btn-verify:focus, .btn-verify:active, .btn-verify.active, .open .dropdown-toggle.btn-verify {
+        color: #ffffff;
+        background-color: #e04a58;
+        border-color: #e04a58;
+    }
+
+    .btn-verify:active, .btn-verify.active, .open .dropdown-toggle.btn-verify {
+        background-image: none;
+    }
+
+    .btn-verify.disabled, .btn-verify[disabled], fieldset[disabled] .btn-verify, .btn-verify.disabled:hover, .btn-verify[disabled]:hover, fieldset[disabled] .btn-verify:hover, .btn-verify.disabled:focus, .btn-verify[disabled]:focus, fieldset[disabled] .btn-verify:focus, .btn-verify.disabled:active, .btn-verify[disabled]:active, fieldset[disabled] .btn-verify:active, .btn-verify.disabled.active, .btn-verify[disabled].active, fieldset[disabled] .btn-verify.active {
+        background-color: #f04e5e;
+        border-color: #f04e5e;
+    }
+
+    .btn-verify .badge {
+        color: #f04e5e;
+        background-color: #ffffff;
+    }
+
+.btn-sample {
+    color: #ffffff;
+    background-color: #f04e5e;
+    border-color: #f04e5e;
+    border-radius: 15px!important; /*font-family: VAG-Rounded-Std-Bold;*/
+    font-size: 15px;
+    font-weight: 400;
+    margin:5px;
+}
+
+    .btn-sample:hover, .btn-sample:focus, .btn-sample:active, .btn-sample.active, .open .dropdown-toggle.btn-sample {
+        color: #ffffff;
+        background-color: #e04a58;
+        border-color: #e04a58;
+    }
+
+    .btn-sample:active, .btn-sample.active, .open .dropdown-toggle.btn-sample {
+        background-image: none;
+    }
+
+    .btn-sample.disabled, .btn-sample[disabled], fieldset[disabled] .btn-sample, .btn-sample.disabled:hover, .btn-sample[disabled]:hover, fieldset[disabled] .btn-sample:hover, .btn-sample.disabled:focus, .btn-sample[disabled]:focus, fieldset[disabled] .btn-sample:focus, .btn-sample.disabled:active, .btn-sample[disabled]:active, fieldset[disabled] .btn-sample:active, .btn-sample.disabled.active, .btn-sample[disabled].active, fieldset[disabled] .btn-sample.active {
+        background-color: #f04e5e;
+        border-color: #f04e5e;
+    }
+
+    .btn-sample .badge {
+        color: #f04e5e;
+        background-color: #ffffff;
+    }
+
+.control-label {
+    /*font-family: VAG-Rounded-Std-Black;*/
+    font-size: 14px;
+}
+
+.panel-success {
+    border-color: #ea7276 !important;
+}
+
+input.form-control:focus {
+    box-shadow: #5A1817;
+    border: 1px #ea7276;
+}
